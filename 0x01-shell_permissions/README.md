@@ -9,3 +9,5 @@ touch empty is the  script that creates an empty file called hello
 chmod u+x hello is the  script that adds execute permission to the owner of the file hello
 chmod ug+x,o+r hello is the  script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
 this is the  script that adds execution permission to the owner, the group owner and the other users, to the file hello
+chmod 753 hello is the script that sets the mode of the file hello
+chmod 007 is the  script that sets the permission to the file hello
